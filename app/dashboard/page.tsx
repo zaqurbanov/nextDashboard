@@ -1,10 +1,8 @@
 import React from 'react'
 import { lusitana } from '../ui/fonts'
 import RevenueChart from '../ui/dashboard/revenue-chart'
-import { fetchRevenue } from '../lib/data'
 
 const DashboardPage =async  () => {
-    const revenue =await fetchRevenue()
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
